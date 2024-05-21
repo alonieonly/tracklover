@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'Mont-ExtraLight';
+    src: url('assets/fonts/Mont-ExtraLight.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mont-Heavy';
+    src: url('assets/fonts/Mont-Heavy.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+body,html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+}
+
+.initial-page {
+    background: url(assets/imgs/background.png);
+    background-size: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 420px;
+    height: 55px;
+    margin-left: 5%;
+}
+
+.signin-container {
+    display: flex;
+    align-items: center;
+    margin-left: 60%;
+    gap: 8px;
+}
+
+.signin-button { 
+    font-family: "Mont-Heavy";
+    color: white;
+    background: #A80000;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.signin-container:hover {
+    cursor: pointer;
+}
+
+.main-container {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 57px;
+    margin-left: 5%;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+}
+.first {
+    font-size: 23px;
+    color: #ffffffa8;
+    font-family: "Mont-ExtraLight";
+}
+
+.second {
+    font-size: 88px;
+    color: #FFFFFF;
+    font-family: "Mont-Heavy";
+    line-height: 112px;
+}
+
+.third {
+    font-size: 23px;
+    color: #FFFFFF;
+    font-family: "Mont-Heavy";
+    line-height: 30px;
+}
+
+.discover {
+    width: 295px;
+    height: 65px;
+    border-radius: 15px;
+    background: #A80000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Mont-Heavy";
+    color: white;
+    font-size: 32px;
+    gap: 8px;
+}
+
+.discover:hover {
+    cursor: pointer;
+}
+
+.infos-page {
+    background: #191C1F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+
+.desc-img {
+    width: 610px;
+    height: 679px;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.infos-page .texts {
+    gap: 25px;
+}
+
+.text-store {
+    font-family: "Mont-ExtraLight";
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 32px;
+}
+
+.text-shopping {
+    font-family: "Mont-Heavy";
+    color: white;
+    font-size: 57px;
+    text-shadow: 3px 3px #A80000;
+    line-height: 72px;
+}
+
+.text-desc {
+    font-family: "Mont-ExtraLight";
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.points {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.point {
+    font-family: "Mont-Heavy";
+    color: white;
+    font-size: 23px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+}
+
+.point span b {
+    color: red;
+}
+
+.joinUs-page {
+    background: url(assets/imgs/joinus.png);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.logo2 {
+    height: 150px;
+    width: 275px;
+}
+
+.center-infos {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.joinus-texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-join {
+    font-family: "Mont-Heavy";
+    color: white;
+    font-size: 53px;
+    text-shadow: 3px 3px #A80000;
+    line-height: 72px;
+    text-align: center;
+}
+
+.text-join-desc {
+    font-family: "Mont-ExtraLight";
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 24px;
+    line-height: 25px;
+}
+
+.join-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.button {
+    font-family: "Mont-Heavy";
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    background-color: #A80000;
+    padding: 15px 25px;
+    border-radius: 15px;
+    gap: 5px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #780000;
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.follow span {
+    font-family: "Mont-ExtraLight";
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+}
+
+.follow-buttons {
+    display: flex;
+    gap: 10px;
+}
+.follow-buttons svg:hover {
+    cursor: pointer;
+}
